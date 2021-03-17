@@ -19,8 +19,8 @@ export class MyChart extends Chart {
             status: BucketSpecForProviderAccelerateConfigurationStatus["ENABLED"]
           },
         },
-        "providerConfigRef": {
-          "name": "example"
+        providerConfigRef: {
+          name: "example"
         }
       }
     });
