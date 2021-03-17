@@ -1,0 +1,12 @@
+apiVersion: s3.aws.crossplane.io/v1beta1
+kind: Bucket
+metadata:
+  name: crossplane-cdk8s-bucket-c8ca68fe
+spec:
+  forProvider:
+    accelerateConfiguration:
+      status: Enabled
+    acl: private
+    locationConstraint: eu-central-1
+  providerConfigRef:
+    name: example
