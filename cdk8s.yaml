@@ -1,0 +1,5 @@
+language: typescript
+app: node main.js
+imports:
+  - k8s
+  - https://raw.githubusercontent.com/crossplane/provider-aws/master/package/crds/s3.aws.crossplane.io_buckets.yaml
